@@ -149,7 +149,7 @@ import { Head, Link } from '@inertiajs/vue3';
                         />
                     </svg>
                     <svg
-                        class="relative -mt-[4.9rem] -ml-8 w-[448px] max-w-none lg:-mt-[6.6rem] lg:ml-0 dark:hidden"
+                        class="relativimport '@mdi/font/css/materialdesignicons.css'e -mt-[4.9rem] -ml-8 w-[448px] max-w-none lg:-mt-[6.6rem] lg:ml-0 dark:hidden"
                         viewBox="0 0 440 376"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
@@ -785,4 +785,5 @@ import { Head, Link } from '@inertiajs/vue3';
         </div>
         <div class="hidden h-14.5 lg:block"></div>
     </div>
+    <v-btn prepend-icon="mdi-magnify">teste</v-btn>
 </template>
