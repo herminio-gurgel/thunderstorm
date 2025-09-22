@@ -1,3 +1,4 @@
+import 'unfonts.css';
 import '../css/app.css';
 
 import { createInertiaApp } from '@inertiajs/vue3';
