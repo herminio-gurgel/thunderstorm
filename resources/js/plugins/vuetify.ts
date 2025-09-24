@@ -13,12 +13,14 @@ const vuetify = createVuetify({
                 colors: {
                     background: '#FDFDFC',
                     surface: '#FFFFFF',
+                    primary: '#000000',
                 },
             },
             dark: {
                 colors: {
                     background: '#0A0A0A',
                     surface: '#161615',
+                    primary: '#FFFFFF',
                 },
             },
         },
