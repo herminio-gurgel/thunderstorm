@@ -10,7 +10,7 @@ export default defineConfig({
         laravel({
             input: ['resources/js/app.ts'],
             ssr: 'resources/js/ssr.ts',
-            refresh: true,
+            refresh: process.env.CI ? false : true,
         }),
         tailwindcss(),
         wayfinder({
@@ -38,7 +38,7 @@ export default defineConfig({
     ],
     test: {
         globals: true,
-        environment: 'jsdom',
+        environment: process.env.CI ? 'node' : 'jsdom',
         setupFiles: './resources/js/tests/setup.ts',
         server: {
             deps: {
