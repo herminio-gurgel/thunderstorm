@@ -7,12 +7,25 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                // "laravel.vscode-laravel",
-                // "mikestead.dotenv",
-                // "amiralizadeh9480.laravel-extra-intellisense",
-                // "ryannaddy.laravel-artisan",
-                // "onecentlin.laravel5-snippets",
-                // "onecentlin.laravel-blade"
+                "laravel.vscode-laravel",
+                "mikestead.dotenv",
+                "amiralizadeh9480.laravel-extra-intellisense",
+                "ryannaddy.laravel-artisan",
+                "onecentlin.laravel5-snippets",
+                "onecentlin.laravel-blade",
+                "l-igh-t.vscode-theme-seti-folder",
+                "esbenp.prettier-vscode",
+                "Vue.volar",
+                "vivaxy.vscode-conventional-commits",
+                "seatonjiang.gitmoji-vscode",
+                "formulahendry.auto-rename-tag",
+                "streetsidesoftware.code-spell-checker-portuguese-brazilian",
+                "streetsidesoftware.code-spell-checker",
+                "GitHub.copilot",
+                "GitHub.copilot-chat",
+                "esbenp.prettier-vscode",
+                "mhutchie.git-graph",
+                "eamodio.gitlens"
             ],
             "settings": {}
         }
