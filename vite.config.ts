@@ -38,7 +38,7 @@ export default defineConfig({
     ],
     test: {
         globals: true,
-        environment: 'jsdom',
+        environment: process.env.CI ? 'node' : 'jsdom',
         setupFiles: './resources/js/tests/setup.ts',
         server: {
             deps: {
