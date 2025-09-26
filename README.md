@@ -58,3 +58,7 @@ O ambiente vem configurado com [Husky](https://typicode.github.io/husky/) para m
         - [Prettier](https://prettier.io/)
         - [Eslint](https://eslint.org/) + [vue-typescript](https://github.com/vuejs/eslint-config-typescript)
         - [Vitest](https://vitest.dev/) + [Vue Test Utils](https://test-utils.vuejs.org/)
+
+## CI
+
+O projeto já conta com os dois workflows padrão do Laravel através do [GitHub Actions](https://github.com/features/actions), com único incremento de adicionar os testes de frontend. A única observação é o uso do `LARAVEL_BYPASS_ENV_CHECK=1` para executar os testes devido alguma limitação do `laravel-vite-plugin`. Existe uma issue sobre isso no [aqui](https://github.com/laravel/vite-plugin/issues/164) de onde tirei a solução.
