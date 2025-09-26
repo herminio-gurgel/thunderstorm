@@ -50,4 +50,4 @@ jobs:
         run: ./vendor/bin/phpunit
 
       - name: Tests Frontend
-        run: npm test
+        run: LARAVEL_BYPASS_ENV_CHECK=1 npm test
