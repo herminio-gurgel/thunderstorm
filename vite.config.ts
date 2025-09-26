@@ -46,4 +46,8 @@ export default defineConfig({
             },
         },
     },
+    baseUrl: '.',
+    paths: {
+        '@/*': ['resources/js/*'],
+    },
 });
